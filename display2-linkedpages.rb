@@ -3,6 +3,14 @@
 #This app demonstrates how to create interlinked pages on Shoes.
 #It's copied straight from the Nobody Knows Shoes book. 
 
+#remember that each of these pages is its own method. 
+#this means data created/stored in one is NOT available on other pages
+
+#encapsulation, yo.
+
+#to use the same data across different pages, you need to SAVE your data on each page, and RELOAD it on each new page.
+
+
 class Booklist < Shoes
 	url '/',					:index
 	url '/twain',			:twain
@@ -43,11 +51,3 @@ Shoes.app :width =>400, :height => 500
 
 
 
-
-#remember that each of these pages is its own method. 
-
-#this means data created/stored in one is NOT available on other pages
-
-#encapsulation, yo.
-
-#to do this, you need to SAVE your data on each page, and RELOAD it on each new page.
