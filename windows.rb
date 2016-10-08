@@ -2,6 +2,10 @@
 #
 #Shows how to launch a window which affects the main Shoes app. 
 
+#Also shows how to launch and close windows
+
+#Note! the window MUST be described in the same stack as you want to change!
+
 Shoes.app do
 
 	var = "
