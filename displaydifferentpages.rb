@@ -1,5 +1,6 @@
-#WORKS
-#Shows different pages based on display
+#FANCY WAYS OF DISPLAYING THINGS
+
+#Displays different pages based on what you click. Demonstrates toggle and hide.
 
 Shoes.app do
 
